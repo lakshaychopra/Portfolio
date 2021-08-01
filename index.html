@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <h1>Lakshay's Component Library</h1>
-    <p>I am attending neog.camp and I want to make a component library which would
+    <p >I am attending neog.camp and I want to make a component library which would
         make my projects look good and consistent.
     </p>
 
@@ -21,20 +22,22 @@
         at the end like a paragraph.
     </p>
     <small>This is relatively smaller text.</small>
-    
+    <p>This paragraph will have
+    <strong>bold</strong> text</p>
+
     <hr>
 
-    <h2>containers</h2>
+    <h2>@containers</h2>
     <h3>fluid container</h3>
-    <div>This is a fluid container and will go till the end of the page.</div>
+    <div class="container">This is a fluid container and will go till the end of the page.</div>
     <h3>center container</h3>
-    <div>This is going to be a center container and wil go till width specified.</div>
+    <div class="container container-center">This is a centered container and will go till width specified.</div>
     
     <hr>
 
     <h2>@links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
 
     <hr>
 
