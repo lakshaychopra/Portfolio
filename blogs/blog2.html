@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs | Lakshay Chopra</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Lakshay Chopra</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="../blogs.html">back</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>FormData Api In Javascript</h1>
+            <p>FormData api provides an easy way to store the data collected from the html form.
+                Formdata stores the key-value pairs for the mentioned html fields.
+            </p>
+            <p>
+                FormData provides a interface to define and access these fields disguised as set of key/value pair.
+                Formdata object can be initialised by calling the constructor with the new operator.
+            </p>
+            <section class="section">
+                <div class="container container-center">
+                    <p>const fd = new FormData();</p>
+                </div>
+            </section>
+            <h2>FormData Methods</h2>
+            <p>
+                The FormData api provides various methods that can be performed on the objects
+            </p>
+            <p>Some of the methods for FormData api are:</p>
+            <ul class="list-non-bullet">
+                <li><strong>append() - </strong>This method appends a new key-value pair to the object</li>
+                <p>Example - fd.append("Name", "Lakshay")</p>
+                <li><strong>delete() - </strong>This method deletes a key-value pair from the object</li>
+                <p>Example - fd.delete("age")</p>
+                <li><strong>get() - </strong>This method retuns the first value for a given key</li>
+                <p>Example - fd.get("Name")</p>
+                <li><strong>getAll() - </strong>This method returns all the values in an array for a given key</li>
+                <p>Example - fd.getAll("education")</p>
+                <li><strong>has() - </strong>This method returns boolean value indicating if a key exists or not</li>
+                <p>Example - fd.has("designation")</p>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-header">Connect with me</div>
+        <ul class="social-links link list-non-bullet">
+            <li class="list-item-inline"><a class ="link" href="https://github.com/lakshaychopra">Github</a></li>
+            <li class="list-item-inline"><a class ="link" href="https://www.instagram.com/lakshaychopra28/">Instagram</a></li>
+            <li class="list-item-inline"><a class ="link"href="https://www.linkedin.com/in/lakshay-chopra/">LinkedIn</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

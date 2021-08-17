@@ -30,67 +30,7 @@
             <p>Dom selectors are basically Javascript inbuilt functions which are used to select html elements
                 with a document. In Javascript you can select the html elements using selectors in 5 ways.
             </p>
-            <section class="section ow">
-                <div class="container container-center">
-                    <ul class="list-non-bullet">
-                        <li>document.getElementsByTagName()</li>
-                        <li>document.getElementsByClassName()</li>
-                        <li>document.getElementById()</li>
-                        <li>document.querySelector()</li>
-                        <li>document.querySelectorAll()</li>
-                    </ul>
-                </div>
-            </section>
-            <p>Now we will see how to use each of these selectors.</p>
-            <section class="section">
-                <div class="container container-center">
-                    <h1>document.getElementsByTagName()</h1>
-                    <p>This method returns the collection of all the html elements with matching tag name.</p>
-                    <p>Example - document.getElementsByTagName('li') will return all the list items in a collection. 
-                        The developer then can traverse through that list using loops and access the elements.
-                    </p>
-                </div>
-            </section>
-            <section class="section ow">
-                <div class="container container-center">
-                    <h1>document.getElementsByClassName()</h1>
-                    <p>This method returns the collection of all the html elements with specific class name mentioned while calling the function.</p>
-                    <p>Example - document.getElementsByClassName('container') will return all the items having class container in a collection. 
-                        The developer then can traverse through that list using loops and access the elements.
-                    </p>
-                </div>
-            </section>
-            <section class="section">
-                <div class="container container-center">
-                    <h1>document.getElementsById()</h1>
-                    <p>This method returns the first element with the specific Id mentioned during calling the selector function.</p>
-                    <p><strong>Note - </strong>Keeping Id's unique is always a good practice.</p>
-                    <p>Example - document.getElementsById('output') will return the first item having id output.
-                    </p>
-                </div>
-            </section>
-            <section class="section ow">
-                <div class="container container-center">
-                    <h1>document.querySelector()</h1>
-                    <p>This method returns the first element with the specific tag, id or class name mentioned during calling the selector function.</p>
-                    <p>Example - document.querySelector('input') will return the first item of the input tag.
-                    </p>
-                    <p>document.querySelector(".container") will return the first element of class container.</p>
-                    <p>document.querySelector("#output") will return the first element of id output.</p>
-                </div>
-            </section>
-            <section class="section">
-                <div class="container container-center">
-                    <h1>document.querySelectorAll()</h1>
-                    <p>This method returns all the element with the specific tag, id or class name mentioned during calling the selector function.</p>
-                    <p>Example - document.querySelector('input') will return all the items of the input tag.
-                    </p>
-                    <p>document.querySelector(".container") will return all the elements of class container.</p>
-                    <p>document.querySelector("#output") will return all the elements of id output.</p>
-                </div>
-            </section>
-            <p>That's All Folks...Isn't this easy :)</p>
-
+            <a class="link link-primary" href="/blogs/blog1.html">Read More</a>
         </div>
     </section>
     <section class="section ow">
@@ -100,39 +40,21 @@
                 Formdata stores the key-value pairs for the mentioned html fields.
             </p>
             <p>
-                FormData provides a interface to define and access these fields disguised as set of key/value pair.
+                FormData provides a interface to define and access these fields disguised as set of key/value
+                pair.
                 Formdata object can be initialised by calling the constructor with the new operator.
             </p>
-            <section class="section">
-                <div class="container container-center">
-                    <p>const fd = new FormData();</p>
-                </div>
-            </section>
-            <h2>FormData Methods</h2>
-            <p>
-                The FormData api provides various methods that can be performed on the objects
-            </p>
-            <p>Some of the methods for FormData api are:</p>
-            <ul class="list-non-bullet">
-                <li><strong>append() - </strong>This method appends a new key-value pair to the object</li>
-                <p>Example - fd.append("Name", "Lakshay")</p>
-                <li><strong>delete() - </strong>This method deletes a key-value pair from the object</li>
-                <p>Example - fd.delete("age")</p>
-                <li><strong>get() - </strong>This method retuns the first value for a given key</li>
-                <p>Example - fd.get("Name")</p>
-                <li><strong>getAll() - </strong>This method returns all the values in an array for a given key</li>
-                <p>Example - fd.getAll("education")</p>
-                <li><strong>has() - </strong>This method returns boolean value indicating if a key exists or not</li>
-                <p>Example - fd.has("designation")</p>
-            </ul>
+            <a class="link link-primary" href="/blogs/blog2.html">Read More</a>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" style="margin-top: 5%">
         <div class="footer-header">Connect with me</div>
         <ul class="social-links link list-non-bullet">
-            <li class="list-item-inline"><a class ="link" href="https://github.com/lakshaychopra">Github</a></li>
-            <li class="list-item-inline"><a class ="link" href="https://www.instagram.com/lakshaychopra28/">Instagram</a></li>
-            <li class="list-item-inline"><a class ="link"href="https://www.linkedin.com/in/lakshay-chopra/">LinkedIn</a></li>
+            <li class="list-item-inline"><a class="link" href="https://github.com/lakshaychopra">Github</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.instagram.com/lakshaychopra28/">Instagram</a>
+            </li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/lakshay-chopra/">LinkedIn</a>
+            </li>
         </ul>
     </footer>
 </body>
