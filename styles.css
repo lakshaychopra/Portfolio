@@ -61,6 +61,7 @@ hr {
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
+
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
@@ -96,11 +97,17 @@ hr {
 
 .section {
     padding: 2rem;
+    background-color: white;
 }
 
 .section h1 {
     text-align: center;
 }
+
+.section h2 {
+    text-align: center;
+}
+
 
 .ow {
     background-color: var(--off-white);
